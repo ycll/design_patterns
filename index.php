@@ -1,4 +1,7 @@
 <?php
+/**
+ * 入口文件
+ */
 
 use Lib\Factory\AbstractFactory\ConcreteFactory1;
 use Lib\Factory\AbstractFactory\ConcreteFactory2;
