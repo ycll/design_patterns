@@ -36,3 +36,9 @@
     2.类名首字母必须大写
     3.除了入口文件外，其他.php必须只有一个类
 ---
+
+### PHP标准库（SPL）
+
+---
+    官方地址：[https://www.php.net/manual/zh/book.spl.php](https://www.php.net/manual/zh/book.spl.php)
+---
