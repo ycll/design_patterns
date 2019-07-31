@@ -24,7 +24,7 @@
             require PATH . $class.php;
         }
     PHP5.3 开始使用 spl_sutoload_register()替代了__autoload()
-     - 使用
+    - 使用
         spl_sutoload_register('autoload1')；
         spl_sutoload_register('autoload2')；      
 ---
