@@ -42,3 +42,16 @@
 ---
    官方地址：[https://www.php.net/manual/zh/book.spl.php](https://www.php.net/manual/zh/book.spl.php)
 ---
+    一些数据结构：
+    1.栈（先进后出）
+```php
+    // spl 栈
+    $stack = new SplStack();
+    // 入栈
+    $stack->push('data1');
+    $stack->push('data2');
+    // 出栈
+    echo $stack->pop();
+    echo PHP_EOL;
+    echo $stack->pop();
+```
