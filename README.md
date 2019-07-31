@@ -40,5 +40,5 @@
 ### PHP标准库（SPL）
 
 ---
-    官方地址：[https://www.php.net/manual/zh/book.spl.php](https://www.php.net/manual/zh/book.spl.php)
+   官方地址：[https://www.php.net/manual/zh/book.spl.php](https://www.php.net/manual/zh/book.spl.php)
 ---
