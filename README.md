@@ -89,3 +89,22 @@
     var_dump($array);
 ```
 ---
+
+### 链式操作的实现
+
+---
+```php
+    return $this;
+```
+    详见 Lib\Database.php
+---
+
+### 魔术方法
+
+---
+    1.__get/__set 详见 Lib\Object;
+    2.__call/__callStatic 详见 Lib\Object;
+    3.__toString 详见 Lib\Object;
+    4.__invoke 详见 Lib\Object;
+---
+
