@@ -9,7 +9,7 @@ namespace Lib\Single;
 class Database
 {
     /** @var $instance Database */
-    private $instance;
+    static private $instance;
 
     private function __construct()
     {
@@ -26,11 +26,11 @@ class Database
     /**
      * @return Database
      */
-    public function getInstance() : Database
+    static public function getInstance() : Database
     {
-        if (!$this->instance instanceof self) {
-            $this->instance = new self();
+        if (!self::$instance instanceof self) {
+            self::$instance = new self();
         }
-        return $this->instance;
+        return self::$instance;
     }
 }
