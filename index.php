@@ -29,4 +29,14 @@ spl_autoload_register('\\Lib\\AutoLoader::autoLoader');
 //$adapter = new \Lib\Adapter\Adapter($obj);
 //$adapter->push();
 
+// 策略模式
+//$strategy = 'girl';
+//if ('girl' == $strategy) {
+//    $strategy = new \Lib\Strategy\GirlStrategy();
+//} else {
+//    $strategy = new \Lib\Strategy\BoyStrategy();
+//}
+//
+//$context = new \Lib\Strategy\Context($strategy);
+//$context->todo();
 
