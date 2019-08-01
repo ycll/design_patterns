@@ -24,4 +24,9 @@ spl_autoload_register('\\Lib\\AutoLoader::autoLoader');
 //$single = Database::getInstance();
 //var_dump($single);
 
+// 适配器模式
+//$obj = new \Lib\Adapter\RealDo();
+//$adapter = new \Lib\Adapter\Adapter($obj);
+//$adapter->push();
+
 
