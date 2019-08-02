@@ -47,3 +47,7 @@ spl_autoload_register('\\Lib\\AutoLoader::autoLoader');
 ////$observer->setObservers(new \Lib\Observer\ConcreteObserver());
 //$observer->notity();
 
+// 配置
+$config = new \Lib\Config(__DIR__ . '/Configs');
+var_export($config['controller']);
+
