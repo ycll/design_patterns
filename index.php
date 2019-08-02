@@ -40,3 +40,10 @@ spl_autoload_register('\\Lib\\AutoLoader::autoLoader');
 //$context = new \Lib\Strategy\Context($strategy);
 //$context->todo();
 
+// 观察者模式
+//echo '主流程', PHP_EOL;
+//$observer = new \Lib\Observer\ObserverManager();
+//$observer->setObservers(new \Lib\Observer\ConcreteObserver());
+////$observer->setObservers(new \Lib\Observer\ConcreteObserver());
+//$observer->notity();
+
